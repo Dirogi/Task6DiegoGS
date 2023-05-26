@@ -35,7 +35,9 @@ function init() {
     } else {
       alert(convertion.message);
     }
-    //anadido por mi
+     
+   
+    // eslint-disable-next-line no-undef
     gtag('event', 'convertion_calculated', {
         'finalValue': convertion.value    
   });
