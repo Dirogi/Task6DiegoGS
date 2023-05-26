@@ -35,6 +35,9 @@ function init() {
     } else {
       alert(convertion.message);
     }
+    //anadido por mi
+    gtag('event', 'convertion_calculated', {
+        'finalValue': convertion.value    
   });
 
 }
