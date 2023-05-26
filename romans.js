@@ -39,7 +39,7 @@ function init() {
    
     // eslint-disable-next-line no-undef
     gtag('event', 'convertion_calculated', {
-        'finalValue': convertion.value    
+        'finalValue': convertion.value  });  
   });
 
 }
