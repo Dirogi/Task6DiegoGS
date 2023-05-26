@@ -35,10 +35,10 @@ function init() {
     } else {
       alert(convertion.message);
     }
-   // eslint-disable-next-line no-undef
-    gtag('event', 'getResult', {
-    'ResultValue': convertion.value
-     });
+    // eslint-disable-next-line no-undef
+      gtag('event', 'getResult', {
+      'ResultValue': convertion.value
+    });
   });
 
 }
