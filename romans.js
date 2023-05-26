@@ -35,9 +35,7 @@ function init() {
     } else {
       alert(convertion.message);
     }
-    // eslint-disable-next-line no-undef
-    gtag('event', 'convertion_calculated', {
-        'finalValue': convertion.value  });  
+      
   });
 
 }
