@@ -36,7 +36,7 @@ function init() {
       alert(convertion.message);
     }
     // eslint-disable-next-line no-undef
-      gtag('event', 'getResult', {
+    gtag('event', 'getResult', {
       'ResultValue': convertion.value
     });
   });
